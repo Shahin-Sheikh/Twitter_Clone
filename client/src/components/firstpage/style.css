@@ -1,0 +1,46 @@
+.leftside,
+.rightside {
+  height: 50vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .leftside,
+  .rightside {
+    height: 100vh;
+  }
+}
+.leftside {
+  background-color: #4693d9;
+}
+.rightside {
+  background-color: #15202b;
+}
+
+input[name='signup'] {
+  clear: both;
+  display: block;
+  margin: 5px auto;
+  width: 318px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: #1a91da;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+}
+input[name='login'] {
+  clear: both;
+  display: block;
+  margin: 5px auto;
+  width: 318px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #0e93ef;
+  background-color: #15202b;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+}
